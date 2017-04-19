@@ -1,0 +1,79 @@
+{
+	"formatVersion" : 1,
+	"passTypeIdentifier" : "pass.au.com.timoliver.businesscard.dank",
+	"serialNumber" : "XD",
+	"teamIdentifier" : "**INSERT YOUR TEAM IDENTIFIER CODE HERE**",
+	"barcodes" : [
+		{
+		    "message" : "https://downloads.timoliver.com.au/tim-businesscard.pkpass",
+		    "format" : "PKBarcodeFormatQR",
+		    "messageEncoding" : "iso-8859-1"
+		}
+	],
+	"organizationName" : "Tim Oliver",
+	"description" : "Tim Oliver",
+	"foregroundColor" : "rgb(255, 255, 255)",
+	"backgroundColor" : "rgb(20, 20, 20)",
+	"labelColor" : "rgb(190, 57, 57)",
+	"storeCard" : { 
+		"headerFields" : [
+			{
+				"key" : "header-name",
+				"textAlignment" : "PKTextAlignmentRight",
+				"label" : "PROFESSION",
+				"value" : "Hanzo Main"
+			}
+		],
+		"auxiliaryFields" : [
+			{
+				"key" : "blog",
+				"label" : "BLOG",
+				"value" : "http://timoliver.blog",
+				"textAlignment" : "PKTextAlignmentLeft"
+			},
+			{
+				"key" : "twitter",
+				"label" : "TWITTER",
+				"value" : "@TimOliverAU",
+				"textAlignment" : "PKTextAlignmentRight"
+			}
+		],
+		"backFields" : [ 
+			{
+				"key" : "back-name",
+				"label" : "NAME",
+				"value" : "Tim Oliver"
+			},
+			{
+				"key" : "back-role",
+				"label" : "OCCUPATION",
+				"value" : "CMO - Chief Memes Officer"
+			},
+			{
+				"key" : "back-email",
+				"label" : "EMAIL",
+				"attributedValue" : "<a href='mailto:info@timoliver.com.au'>info@timoliver.com.au</a>"
+			},
+			{
+				"key" : "back-blog",
+				"label" : "BLOG",
+				"attributedValue" : "<a href='http://timoliver.blog'>http://timoliver.blog</a>"
+			},
+			{
+				"key" : "back-email",
+				"label" : "TWITTER",
+				"attributedValue" : "<a href='http://twitter.com/timoliverau'>@TimOliverAU</a>"
+			},	
+			{
+				"key" : "back-instagram",
+				"label" : "INSTAGRAM",
+				"attributedValue" : "<a href='http://instagram.com/timoliver'>@TimOliver</a>"
+			},	
+			{
+				"key" : "back-github",
+				"label" : "GITHUB",
+				"attributedValue" : "<a href='http://github.com/timoliver'>@TimOliver</a>"
+			}
+		]
+	}
+}
