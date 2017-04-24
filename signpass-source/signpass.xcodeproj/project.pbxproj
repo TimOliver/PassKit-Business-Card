@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7218F2DA1575996900726771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7218F2D91575996900726771 /* Foundation.framework */; };
+		7218F2DD1575996900726771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7218F2DC1575996900726771 /* main.m */; };
+		729BD25115759ACA00C6D0F2 /* PassSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 729BD25015759ACA00C6D0F2 /* PassSigner.m */; };
+		729BD25415759B0000C6D0F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729BD25315759B0000C6D0F2 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7218F2D31575996900726771 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7218F2D51575996900726771 /* signpass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = signpass; sourceTree = BUILT_PRODUCTS_DIR; };
+		7218F2D91575996900726771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7218F2DC1575996900726771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7218F2DF1575996900726771 /* signpass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "signpass-Prefix.pch"; sourceTree = "<group>"; };
+		729BD24F15759ACA00C6D0F2 /* PassSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassSigner.h; sourceTree = "<group>"; };
+		729BD25015759ACA00C6D0F2 /* PassSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassSigner.m; sourceTree = "<group>"; };
+		729BD25315759B0000C6D0F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7218F2D21575996900726771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729BD25415759B0000C6D0F2 /* Security.framework in Frameworks */,
+				7218F2DA1575996900726771 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7218F2CA1575996900726771 = {
+			isa = PBXGroup;
+			children = (
+				7218F2DB1575996900726771 /* signpass */,
+				7218F2D81575996900726771 /* Frameworks */,
+				7218F2D61575996900726771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7218F2D61575996900726771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7218F2D51575996900726771 /* signpass */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7218F2D81575996900726771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729BD25315759B0000C6D0F2 /* Security.framework */,
+				7218F2D91575996900726771 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7218F2DB1575996900726771 /* signpass */ = {
+			isa = PBXGroup;
+			children = (
+				7218F2DC1575996900726771 /* main.m */,
+				729BD24F15759ACA00C6D0F2 /* PassSigner.h */,
+				729BD25015759ACA00C6D0F2 /* PassSigner.m */,
+				7218F2DE1575996900726771 /* Supporting Files */,
+			);
+			path = signpass;
+			sourceTree = "<group>";
+		};
+		7218F2DE1575996900726771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7218F2DF1575996900726771 /* signpass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7218F2D41575996900726771 /* signpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7218F2E41575996900726771 /* Build configuration list for PBXNativeTarget "signpass" */;
+			buildPhases = (
+				7218F2D11575996900726771 /* Sources */,
+				7218F2D21575996900726771 /* Frameworks */,
+				7218F2D31575996900726771 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = signpass;
+			productName = signpass;
+			productReference = 7218F2D51575996900726771 /* signpass */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7218F2CC1575996900726771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 7218F2CF1575996900726771 /* Build configuration list for PBXProject "signpass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7218F2CA1575996900726771;
+			productRefGroup = 7218F2D61575996900726771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7218F2D41575996900726771 /* signpass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7218F2D11575996900726771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7218F2DD1575996900726771 /* main.m in Sources */,
+				729BD25115759ACA00C6D0F2 /* PassSigner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7218F2E21575996900726771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7218F2E31575996900726771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7218F2E51575996900726771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "signpass/signpass-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7218F2E61575996900726771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "signpass/signpass-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7218F2CF1575996900726771 /* Build configuration list for PBXProject "signpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7218F2E21575996900726771 /* Debug */,
+				7218F2E31575996900726771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7218F2E41575996900726771 /* Build configuration list for PBXNativeTarget "signpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7218F2E51575996900726771 /* Debug */,
+				7218F2E61575996900726771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7218F2CC1575996900726771 /* Project object */;
+}
