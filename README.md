@@ -59,4 +59,4 @@ If dragging the `.pkpass` file into the iOS Simulator does nothing, you can open
 
 # License
 
-All of the code in this repository, except for Apple's `signpass` code is released under public domain. No credit is necessary.
+All of the code in this repository, except for Apple's `signpass` code is released under public domain. No credit is necessary. ![analytics](https://ga-beacon.appspot.com/UA-5643664-16/PassKit-Business-Card/README.md?pixel)
