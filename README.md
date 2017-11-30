@@ -5,6 +5,10 @@
 <img src="https://raw.githubusercontent.com/timoliver/PassKit-Business-Card/master/screenshot.jpg" style="margin:0 auto" />
 </p>
 
+[![Beerpay](https://beerpay.io/TimOliver/PassKit-Business-Card/badge.svg?style=flat)](https://beerpay.io/TimOliver/PassKit-Business-Card)
+[![PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M4RKULAVKV7K8)
+
+
 A new trend that's been emerging in recent years is taking the pass features of the [Wallet](https://support.apple.com/en-us/HT204003) app, available on every iPhone, and using them in new and interesting ways.
 
 One novel idea is the concept of having a pass that serves as a virtual business card. Anyone with an iPhone is guaranteed to have the app installed, it's easier than carrying physical cards around, and it usually leaves a lasting impression.
@@ -60,8 +64,3 @@ If dragging the `.pkpass` file into the iOS Simulator does nothing, you can open
 # License
 
 All of the code in this repository, except for Apple's `signpass` code is released under public domain. No credit is necessary. ![analytics](https://ga-beacon.appspot.com/UA-5643664-16/PassKit-Business-Card/README.md?pixel)
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/TimOliver/PassKit-Business-Card/badge.svg?style=beer-square)](https://beerpay.io/TimOliver/PassKit-Business-Card)  [![Beerpay](https://beerpay.io/TimOliver/PassKit-Business-Card/make-wish.svg?style=flat-square)](https://beerpay.io/TimOliver/PassKit-Business-Card?focus=wish)
