@@ -60,3 +60,8 @@ If dragging the `.pkpass` file into the iOS Simulator does nothing, you can open
 # License
 
 All of the code in this repository, except for Apple's `signpass` code is released under public domain. No credit is necessary. ![analytics](https://ga-beacon.appspot.com/UA-5643664-16/PassKit-Business-Card/README.md?pixel)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/TimOliver/PassKit-Business-Card/badge.svg?style=beer-square)](https://beerpay.io/TimOliver/PassKit-Business-Card)  [![Beerpay](https://beerpay.io/TimOliver/PassKit-Business-Card/make-wish.svg?style=flat-square)](https://beerpay.io/TimOliver/PassKit-Business-Card?focus=wish)
