@@ -11,7 +11,7 @@ One novel idea is the concept of having a pass that serves as a virtual business
 
 This repository is a basic template indicating all of the metadata and assets needed to create a business card. It also contains a compiled version of the utility that Apple published that allows pass bundles to be properly signed with a Developer certificate so they'll work on consumer hardware.
 
-I can't take credit for this idea. A major shoutout goes to [Thi Doan](http://twitter.com/thi_dev) for originally sharing his virtual business card with me. :)
+I can't take credit for this idea. A major shoutout goes to [Thi Doan](http://twitter.com/thi_dt) for originally sharing his virtual business card with me. :)
 
 # Requirements
 
