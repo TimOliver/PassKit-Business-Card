@@ -1,17 +1,17 @@
 {
 	"formatVersion" : 1,
-	"passTypeIdentifier" : "pass.au.com.timoliver.businesscard.dank",
+	"passTypeIdentifier" : "pass.au.com.tomoliver.businesscard.dank",
 	"serialNumber" : "XD",
 	"teamIdentifier" : "**INSERT YOUR TEAM IDENTIFIER CODE HERE**",
 	"barcodes" : [
 		{
-		    "message" : "https://downloads.timoliver.com.au/tim-businesscard.pkpass",
+		    "message" : "https://downloads.tomoliver.com.au/tom-businesscard.pkpass",
 		    "format" : "PKBarcodeFormatQR",
 		    "messageEncoding" : "iso-8859-1"
 		}
 	],
-	"organizationName" : "Tim Oliver",
-	"description" : "Tim Oliver",
+	"organizationName" : "Tom Oliver",
+	"description" : "Tom Oliver",
 	"foregroundColor" : "rgb(255, 255, 255)",
 	"backgroundColor" : "rgb(20, 20, 20)",
 	"labelColor" : "rgb(190, 57, 57)",
@@ -28,13 +28,13 @@
 			{
 				"key" : "blog",
 				"label" : "BLOG",
-				"value" : "http://timoliver.blog",
+				"value" : "http://tomoliver.blog",
 				"textAlignment" : "PKTextAlignmentLeft"
 			},
 			{
 				"key" : "twitter",
 				"label" : "TWITTER",
-				"value" : "@TimOliverAU",
+				"value" : "@TomOliverAU",
 				"textAlignment" : "PKTextAlignmentRight"
 			}
 		],
@@ -42,7 +42,7 @@
 			{
 				"key" : "back-name",
 				"label" : "NAME",
-				"value" : "Tim Oliver"
+				"value" : "Tom Oliver"
 			},
 			{
 				"key" : "back-role",
@@ -52,27 +52,27 @@
 			{
 				"key" : "back-email",
 				"label" : "EMAIL",
-				"attributedValue" : "<a href='mailto:info@timoliver.com.au'>info@timoliver.com.au</a>"
+				"attributedValue" : "<a href='mailto:info@tomoliver.com.au'>info@tomoliver.com.au</a>"
 			},
 			{
 				"key" : "back-blog",
 				"label" : "BLOG",
-				"attributedValue" : "<a href='http://timoliver.blog'>http://timoliver.blog</a>"
+				"attributedValue" : "<a href='http://tomoliver.blog'>http://tomoliver.blog</a>"
 			},
 			{
 				"key" : "back-twitter",
 				"label" : "TWITTER",
-				"attributedValue" : "<a href='http://twitter.com/timoliverau'>@TimOliverAU</a>"
+				"attributedValue" : "<a href='http://twitter.com/tomoliverau'>@TomOliverAU</a>"
 			},	
 			{
 				"key" : "back-instagram",
 				"label" : "INSTAGRAM",
-				"attributedValue" : "<a href='http://instagram.com/timoliver'>@TimOliver</a>"
+				"attributedValue" : "<a href='http://instagram.com/tomoliver'>@TomOliver</a>"
 			},	
 			{
 				"key" : "back-github",
 				"label" : "GITHUB",
-				"attributedValue" : "<a href='http://github.com/timoliver'>@TimOliver</a>"
+				"attributedValue" : "<a href='http://github.com/tomoliver'>@TomOliver</a>"
 			}
 		]
 	}
